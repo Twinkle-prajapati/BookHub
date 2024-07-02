@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Navbar1 from './Navbar1'; // Assuming you have a custom Navbar component
+import Navbar1 from './Navbar1'; 
 
 const AboutUsPage = () => {
     return (
         <>
-            <Navbar1 /> {/* Your custom Navbar component */}
+            <Navbar1 />
             <header className="bg-dark text-white py-5">
                 <Container>
                     <h1 className="display-4">About Us</h1>
@@ -35,7 +35,7 @@ const AboutUsPage = () => {
             </main>
             <footer className="bg-dark text-white py-4 mt-5">
                 <Container>
-                    <p className="text-center">&copy; 2024 Your Company. All rights reserved.</p>
+                    <p className="text-center">&copy; 2024 BOOKHUB. All rights reserved.</p>
                 </Container>
             </footer>
         </>
